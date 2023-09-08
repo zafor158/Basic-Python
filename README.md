@@ -17,15 +17,4 @@ In this lab, we will cover:
 # A Brief Note on Python Versions
 As of January 1, 2020, Python has officially dropped support for python2. We'll be using Python 3.7 for this iteration of the course. You can check your Python version at the command line by running python --version. In Colab, we can enforce the Python version by clicking Runtime -> Change Runtime Type and selecting python3. Note that as of April 2020, Colab uses Python 3.6.9 which should run everything without any errors.
 
-# Basics of Python
-Python is a high-level, dynamically typed multiparadigm programming language. Python code is often said to be almost like pseudocode, since it allows you to express very powerful ideas in very few lines of code while being very readable. As an example, here is an implementation of the classic quicksort algorithm in Python:
-def quicksort(arr):
-    if len(arr) <= 1:
-        return arr
-    pivot = arr[len(arr) // 2]
-    left = [x for x in arr if x < pivot]
-    middle = [x for x in arr if x == pivot]
-    right = [x for x in arr if x > pivot]
-    return quicksort(left) + middle + quicksort(right)
 
-print(quicksort([3,6,8,10,1,2,1]))

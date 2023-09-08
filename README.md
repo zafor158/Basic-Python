@@ -7,7 +7,7 @@ Python is a great general-purpose programming language on its own, but with the 
 
 We expect that many of you will have some experience with Python and numpy; for the rest of you, this section will serve as a quick crash course both on the Python programming language and on the use of Python for scientific computing.
 
-In this lab, we will cover:
+In this lab, we covered:
 
 * Basic Python: Basic data types (Containers, Lists, Dictionaries, Sets, Tuples), Functions, Classes
 * Numpy: Arrays, Array indexing, Datatypes, Array math, Broadcasting
